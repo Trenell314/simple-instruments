@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(220, 171, 123);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(241, 241, 241);
+    text-align: center;
+    font-family: 'Aura Bella';
+    font-size: 50px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    margin-top: -50px;
+    filter:drop-shadow(5px 5px 5px black);
+
+}
+
+.image {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.instrument {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.instructions h2 {
+    font-family: 'Aura Bella';
+    color: rgb(241, 241, 241);
+    font-size: 30px;
+}
+
+.instructions {
+    font-family: 'queensides';
+    color: rgb(241, 241, 241);
+    font-size: 13px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+li, a {
+    font-family: 'Aura Bella';
+    color: rgb(241, 241, 241);
+    font-size: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+}
+
+.nav-links li a:hover {
+    background-color: rgb(161, 105, 64);
+    padding: 10px 5px;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 150px;
+}
+
+.bongos img {
+    padding: 0px 5px;
+    margin: 10px -35px 0px;
+    width: 300px;
+    height: 300px;
+    filter:drop-shadow(5px 5px 5px black);
+
+}
+
+.guitar img {
+    padding: 0px 50px;
+    margin: 10px -35px 0px;
+    width: 400px;
+    height: 400px;
+    filter:drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+@view-transition {
+    navigation: auto;
+}
+
