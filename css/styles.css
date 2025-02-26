@@ -35,7 +35,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 150px;
+    width: 90%;
+    height: 60%;
 }
 
 .instructions h2 {
@@ -108,4 +110,34 @@ header {
 @view-transition {
     navigation: auto;
 }
+
+.slide-container {
+    width: 90%;
+    height: 15px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
+}
+
+.slider {
+    appearance: none;
+    outline: none;
+    width: 200px;
+    border-radius: 20px;
+    background: rgb(233, 216, 194);
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(161, 105, 64);
+    cursor: pointer;
+}
+
+
+
 

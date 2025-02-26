@@ -7,21 +7,20 @@
     <title>Guitar</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
-
   <body>
     <header>
       <nav>
         <ul class="nav-links">
-         <li><a href="index.html">Piano</a></li>
-         <li><a href="bongos.html">Bongos</a></li>
-         <li class="active"><a href="guitar.html">Guitar</a></li>
+          <li><a href="index.html">Piano</a></li>
+          <li><a href="bongos.html">Bongos</a></li>
+          <li class="active"><a href="guitar.html">Guitar</a></li>
         </ul>
       </nav>
     </header>
     <div class="instrument">
       <div class="instructions">
         <h2>Instructions</h2>
-        <h3>Use 1-Backspace to play the guitar!</h3>
+        <h3>Use keys 1-Backspace to play the guitar!</h3>
         <h3>Example Songs:</h3>
         <h3>Hey There Delilah - ---- 989 ---Back-9868</h3>
         <h3>Never Gonna Give You Up - 2452 997 2452 775 2452 574 75</h3>
@@ -32,6 +31,11 @@
         <img src="images/guitar.png" alt="The Bongos">
       </div>
       </div>
-    <script src="js/guitar.js"></script>
-    </body>
+    </div>
+    <div class="slide-container">
+      <input type="range" min="0" max="100" value="100" class="slider" id="volume">
+    </div>
+    <script src="js/guitar.js">
+    </script>
+  </body>
 </html>
